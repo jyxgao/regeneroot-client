@@ -1,0 +1,46 @@
+.maplist-view--searchbar {
+  padding-top: 65px;
+  /* position: fixed; */
+}
+
+.maplist-view--content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-right: 6em;
+  /* margin: auto; */
+}
+
+.small-lot--list {
+  display: flex;
+  flex-direction: column;
+  /* margin: auto; */
+  /* margin-left: 10%; */
+  width: 100%;
+  flex: 30%;
+  /* position: relative; */
+}
+
+.maplist-view--map-container{
+ display: flex;
+ width: 60%;
+ height: 100%;
+ justify-content: flex-end;
+ position: fixed;
+ right: 0;
+ margin-bottom: 20px;
+}
+
+.map-popup {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.map-popup--img {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+}

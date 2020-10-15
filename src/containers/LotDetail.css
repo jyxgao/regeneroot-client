@@ -1,0 +1,230 @@
+.home--layout{
+  margin-right: 10%;
+  margin-left: 10%;
+  /* display: flex;
+  align-items: center; */
+}
+
+.LotDetail_layout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.LotDetail--detail_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 90%;
+  /* padding-right: 5px; */
+  padding-top: 1vw;
+  padding-left: 1vw;
+}
+
+.LotDetail--main_image {
+  /* border-radius: 0.5em; */
+  width: 100%;
+  height: 25vw;
+  background-position: center center;
+  background-repeat: no-repeat;
+  object-fit: cover;
+}
+
+.LotDetail--image_list {
+  overflow:scroll;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  padding-left: 1vw;
+  align-content: space-between;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-right: 1vw;
+  height: 30vw;
+  /* padding-top: 5vw; */
+}
+
+.LotDetail--image_list_item {
+  display: flex;
+  object-fit: cover;
+  border-radius: 3%;
+  width: 49%;
+  padding-bottom: 1vw;
+  height: 13vw;
+}
+
+.LotDetail--title_block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  /* font-size: 1em; */
+}
+
+.LotDetail--title {
+  font-size: 40px;
+  font-weight: 400;
+  color: #1f2a35;
+  margin-left: 15px;
+}
+
+.LotDetail--price {
+  color: #47B881;
+  font-size:40px;
+  font-weight: 200;
+  margin-right: 15px;
+}
+
+.LotDetail--subtitle {
+  color: #425A70;
+  font-size: 1.5em;
+  font-weight: 500;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid #ccc; */
+}
+
+.LotDetail--description {
+  color: #425A70;
+  font-size:18px;
+  font-weight: 100;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.LotDetail--subtitle_group {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-top: 1em;
+}
+
+.LotDetail--pic_with_titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  border-top-right-radius: 3%;
+  border-top-left-radius: 3%;
+  /* overflow: hidden; */
+  position: relative;
+  background-color: white;
+}
+
+.LotDetail--edit_buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0.8em;
+  overflow: hidden;
+  position: relative;
+}
+
+.LotDetail--backButton {
+  margin-left: 15px;
+}
+
+.LotDetail--owned {
+  border: 2px solid #D81159;
+}
+
+.LotDetail--top-right-owned {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #FFFFFF;
+  background: #D81159;
+  font-weight: bolder;
+  border: 15px solid #D81159;
+  z-index: 4;
+}
+
+.LotDetail--leased {
+  border: 2px solid #D81159;
+}
+
+.LotDetail--top-right-leased {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  color: #FFFFFF;
+  background: #D81159;
+  font-weight: bolder;
+  border: 15px solid #D81159;
+  z-index: 4;
+}
+
+.button--message-owner {
+  color: #FFFFFF;
+  background-color: #D81159;
+  background-image: none;
+}
+
+.button--message-owner:hover {
+  color:#D81159;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+
+.button--edit {
+  color: #FFFFFF;
+  background-color: #D81159;
+  background-image: none;
+}
+
+.button--edit:hover {
+  color:#D81159;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+.button--delete {
+  color: #FFFFFF;
+  background-color: #D81159;
+  background-image: none;
+}
+
+.button--delete:hover {
+  color:#D81159;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+
+.button--owner-inbox {
+  color: #FFFFFF;
+  background-color: #D81159;
+  background-image: none;
+}
+
+.button--owner-inbox:hover {
+  color:#D81159;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+
+.button--back {
+  color: #FFFFFF;
+  background-color: #D81159;
+  background-image: none;
+}
+
+.button--back:hover {
+  color:#D81159;
+  background-color: #FFFFFF;
+  background-image:none;
+}
+/* .hide {
+  display:none;
+  visibility: hidden;
+} */
+
+
+
+
